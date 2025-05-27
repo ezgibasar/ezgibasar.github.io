@@ -2,3 +2,16 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This makes sure the wrapper takes at least the full viewport height */
+}
+
+section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* This vertically centers the content */
+}
