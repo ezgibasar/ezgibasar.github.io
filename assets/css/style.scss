@@ -3,10 +3,14 @@
 
 @import "jekyll-theme-minimal";
 
+.logo-container {
+  margin-bottom: 10px;
+}
+
 .circle-logo {
   border-radius: 50%;
   width: 250px;   
   height: 250px;   
   object-fit: cover; 
-  margin: 0 auto 10px auto;   
+  margin: 0 auto;   
 }
