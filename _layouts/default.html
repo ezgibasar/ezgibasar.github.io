@@ -19,7 +19,9 @@
         <h3>/ez.ˈgi ˈba.ʃaɾ/</h3>
 
         {% if site.logo %}
-          <img class="circle-logo" src="{{site.logo | relative_url}}" alt="Logo" />
+          <div class="logo-container">
+            <img class="circle-logo" src="{{site.logo | relative_url}}" alt="Logo" />
+          </div>
         {% endif %}
 
         <code>{{ site.description | default: site.github.project_tagline }}</code>
